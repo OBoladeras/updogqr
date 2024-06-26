@@ -1,0 +1,3 @@
+updog
+qrcode
+netifaces

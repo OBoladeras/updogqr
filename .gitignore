@@ -1,0 +1,6 @@
+.venv
+venv
+
+updogqr/__pycache__/
+build
+updogqr.egg-info/
