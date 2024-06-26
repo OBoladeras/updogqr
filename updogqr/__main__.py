@@ -40,7 +40,10 @@ def main():
         python_executable = sys.executable
         dir = os.path.dirname(python_executable)
 
-        os.system(f"{dir}/updog")
+        if os.path.exists(f"{dir}/updog"):
+            os.system(f"{dir}/updog")
+        else:
+            os.system("updog")
     except KeyboardInterrupt:
         exit(0)
     finally:
